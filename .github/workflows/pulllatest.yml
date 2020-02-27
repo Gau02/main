@@ -9,6 +9,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+          ref: master
+          fetch-depth: 0
     - name: pull code from subrepo
       run: |
         git remote add subrepo https://github.com/Gau02/subrepo.git 
