@@ -14,5 +14,7 @@ jobs:
           fetch-depth: 0
     - name: pull code from subrepo
       run: |
+        git config --global user.email "capristar02@gmail.com"
+        git config --global user.name "Gaurav Chaudhari"
         git remote add subrepo https://github.com/Gau02/subrepo.git 
         git subtree pull --prefix=subrepo --squash -m "Updates" subrepo master
