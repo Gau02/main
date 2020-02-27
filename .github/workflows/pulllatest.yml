@@ -11,5 +11,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: pull code from subrepo
       run: |
-        git remote add subrepo https://github.com/Gau02/subrepo.git
         git subtree add --squash --prefix=subrepo/ subrepo master
