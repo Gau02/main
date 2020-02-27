@@ -11,4 +11,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: pull code from subrepo
       run: |
-        git subtree add --squash --prefix=subrepo/ subrepo master
+        git subtree pull --squash --prefix=subrepo/ subrepo master
