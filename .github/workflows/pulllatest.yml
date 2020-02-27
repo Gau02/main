@@ -12,4 +12,4 @@ jobs:
     - name: pull code from subrepo
       run: |
         git remote add subrepo https://github.com/Gau02/subrepo.git 
-        git subtree pull --squash --prefix=subrepo/ subrepo master -m "Update"
+        git subtree pull --squash --prefix=subrepo/ subrepo master
