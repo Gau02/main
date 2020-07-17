@@ -10,7 +10,7 @@ jobs:
       - run: |
           git config --global user.name "Gaurav Chaudhari"
           git config --global user.email "capristar02@gmail.com" 
-          git submodule update --remote --merge
-          git add --all
-          git commit -m "Modified submodule remote"
-          git push origin master 
+      - run: git submodule update --remote --merge
+      - run: git add --all
+      - run: git commit -m "Modified submodule remote"
+      - run: git push origin master 
