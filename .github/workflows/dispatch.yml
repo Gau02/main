@@ -8,4 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
+          git config --global user.name "Gaurav Chaudhari"
+          git config --global user.email "capristar02@gmail.com" 
           git submodule update --remote --merge
+          git add --all
+          git commit -m "Modified submodule remote"
+          git push origin master 
