@@ -1,5 +1,5 @@
 {
-  "contributors": "https://api.github.com/repos/Gau02/main/contents/.contributors",
+  "contributors": "https://api.github.com/repos/Gau02/clabot-contributors/contents/contributors.json",
   "message": "Welcome, Thanks for your contribution. Please sign CLA to merge your contribution in main branch",
   "label": "CLA-SIGNED"
 }
